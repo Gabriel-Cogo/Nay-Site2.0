@@ -1,33 +1,54 @@
-@include ('components.head')
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Coisas de IT Girl</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!-- Estilo do Template -->
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/animate.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/animate.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/fonts.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/font-awesome.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/font-awesome.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/magnific-popup.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.carousel.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.theme.default.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/responsive.css') }}" />
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images/fav-icon.png') }}" />
+</head>
 
 <body>
     <div id="preloader">
         <div id="status">
-            <img src="images/preloader.gif" id="preloader_image" alt="loader">
+            <img src="{{ asset('images/preloader.gif') }}" id="preloader_image" alt="loader">
         </div>
     </div>
     <!-- top to return -->
     <a href="javascript:;" id="return-to-top"><i class="fas fa-angle-double-up"></i></a>
     <!-- header start -->
 
-    @include ('components.header')
+    @include('components.header')
 
     <!-- header end -->
-    <!-- banner sction start -->
+    <!-- banner section start -->
     <div class="banner-section-wrapper float_left">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="sb-banner-section ">
-                        <h4>We Are Here For You</h4>
-                        <h2 class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".5ms">Professional and <br>
-                            Friendly <span>Health Care</span> <br>
-                            For You
+                        <h4>Estamos Aqui Para Você</h4>
+                        <h2 class="wow fadeIn" data-wow-duration="2s" data-wow-delay=".5ms">Cuidados de Saúde<br>
+                            Profissionais e <span>Amigáveis</span><br>
+                            Para Você
                         </h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout. The point of using Lorem Ipsum.
+                        <p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo legível de uma página
+                            ao analisar sua diagramação. O objetivo de usar Lorem Ipsum.
                         </p>
-                        <a href="appoinment.html" class="button-btn mt-4">book now
+                        <a href="appoinment.html" class="button-btn mt-4">Agende Agora
                             <span><i class="fas fa-angle-double-right"></i></span>
                         </a>
                     </div>
@@ -59,8 +80,8 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <h5>Mediacal Counseling</h5>
-                            <p>It is a long established fact that</p>
+                            <h5>Conselhos Médicos</h5>
+                            <p>É um fato conhecido de todos que</p>
                         </div>
                     </div>
                 </div>
@@ -81,8 +102,8 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <h5>Qualified Doctors</h5>
-                            <p>It is a long established fact that</p>
+                            <h5>Médicos Qualificados</h5>
+                            <p>É um fato conhecido de todos que</p>
                         </div>
                     </div>
                 </div>
@@ -105,71 +126,68 @@
                             </svg>
                         </div>
                         <div class="content">
-                            <h5>Emergency Services</h5>
-                            <p>It is a long established fact that</p>
+                            <h5>Serviços de Emergência</h5>
+                            <p>É um fato conhecido de todos que</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About us section end -->
+    <!-- About section end -->
     <!-- image about section start-->
     <div class="image-about-wrapper float_left">
         <div class="container ">
             <div class="row plr-50">
                 <div class="col-lg-6 col-md-12">
                     <div class="image-section ps-rel ">
-                        <img src="images/about-img.jpg" alt="img">
+                        <img src="{{ asset('images/about-img.jpg') }}" alt="img">
                         <div class="image-content ">
-                            <h5>Open Hours</h5>
+                            <h5>Horário de Funcionamento</h5>
                             <ul class="content-box">
                                 <li>
                                     <ul>
-                                        <li>Monday :</li>
-                                        <li>Tuesday :</li>
-                                        <li>Wednesday :</li>
-                                        <li>Tuesday :</li>
-                                        <li>Thursday :</li>
-                                        <li>Friday :</li>
-                                        <li>Saturday :</li>
+                                        <li>Segunda-feira :</li>
+                                        <li>Terça-feira :</li>
+                                        <li>Quarta-feira :</li>
+                                        <li>Quinta-feira :</li>
+                                        <li>Sexta-feira :</li>
+                                        <li>Sábado :</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul>
-                                        <li>08.00 - 10.00</li>
-                                        <li>08.00 - 10.00</li>
-                                        <li>08.00 - 10.00</li>
-                                        <li>08.00 - 10.00</li>
-                                        <li>08.00 - 10.00</li>
-                                        <li>08.00 - 10.00</li>
-                                        <li>08.00 - 10.00</li>
+                                        <li>08:00 - 10:00</li>
+                                        <li>08:00 - 10:00</li>
+                                        <li>08:00 - 10:00</li>
+                                        <li>08:00 - 10:00</li>
+                                        <li>08:00 - 10:00</li>
+                                        <li>08:00 - 10:00</li>
                                     </ul>
                                 </li>
                             </ul>
                             <div class="logo-icon">
-                                <img src="images/fav-icon.png" alt="img">
+                                <img src="{{ asset('images/fav-icon.png') }}" alt="img">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="about-content ">
-                        <h6 class="home1-section-heading1 text-start">About Us</h6>
-                        <h4>Professional Health and Medical
-                            Care in Full Measure
-                        </h4>
+                        <h6 class="home1-section-heading1 text-start">Sobre Nós</h6>
+                        <h4>Cuidados Profissionais de Saúde e Médicos em Plena Medida</h4>
                         <p class="py-3">
-                            It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
-                            more-or-less normal distribution of letters, as opposed to using 'Content here, content
-                            here', making it look like readable English.
+                            É um fato conhecido de todos que um leitor se distrairá com o conteúdo legível de uma página
+                            ao analisar sua diagramação. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição
+                            mais ou menos normal de letras, ao contrário de usar 'Conteúdo aqui, conteúdo aqui',
+                            tornando-o
+                            semelhante ao inglês legível.
                         </p>
                         <p>
-                            It is a long established fact that a reader will be distracted by the readable
-                            content of a page when looking at its layout.
+                            É um fato conhecido de todos que um leitor se distrairá com o conteúdo legível de uma página
+                            ao analisar sua diagramação.
                         </p>
-                        <a href="about-us.html" class="button-btn mt-4">Read More
+                        <a href="about-us.html" class="button-btn mt-4">Leia Mais
                             <span><i class="fas fa-angle-double-right"></i></span>
                         </a>
                     </div>
@@ -178,16 +196,16 @@
         </div>
     </div>
     <!-- image about section end-->
-    <!-- secvices section start  -->
+    <!-- services section start  -->
     <div class="services-main-wrapper float_left">
-        <div class="container	">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                     <div class="sb-service-section">
-                        <h6 class="home1-section-heading1">Our Services</h6>
-                        <h5 class="home1-section-heading2">Special High-quality Services</h5>
-                        <p>It is a long established fact that a reader will be distracted by the readable<br>
-                            content of a page when looking at its layout.
+                        <h6 class="home1-section-heading1">Nossos Serviços</h6>
+                        <h5 class="home1-section-heading2">Serviços Especiais de Alta Qualidade</h5>
+                        <p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo legível de uma página
+                            ao analisar sua diagramação.
                         </p>
                         <div class="slider-service-section">
                             <div class="owl-carousel owl-theme">
@@ -209,11 +227,11 @@
                                                 d="M512,256a89.59,89.59,0,1,0-102.39,88.69V358.4a128.14,128.14,0,0,1-128,128c-67.06,0-122.22-51.83-127.56-117.54a38.41,38.41,0,0,0,25.17-36.06v-7.28c30-12.37,45.84-37.64,50.63-53l45.61-148.24a77.27,77.27,0,0,0-10-66.38A75.4,75.4,0,0,0,256,46.51c0-.57,0-1.13,0-1.71a44.83,44.83,0,1,0-10.72,29.07A51.77,51.77,0,0,1,251,116.79L205.4,265a65.26,65.26,0,0,1-31.78,35,38.4,38.4,0,0,0-66.2,1,64.87,64.87,0,0,1-33.9-36L27.92,116.79A51.81,51.81,0,0,1,34.62,72.3l.22-.3a44.8,44.8,0,1,0-9.19-28,75.07,75.07,0,0,0-12.22,14,77.27,77.27,0,0,0-10,66.38l45.62,148.3c4.92,15.73,21.55,42,53.35,54v6.22a38.41,38.41,0,0,0,26,36.34C133.93,448.84,200.53,512,281.61,512c84.69,0,153.59-68.91,153.59-153.6V344.69A89.61,89.61,0,0,0,512,256ZM211.22,64a19.2,19.2,0,1,1,19.2-19.2A19.22,19.22,0,0,1,211.22,64ZM70.43,25.6a19.2,19.2,0,1,1-19.2,19.2A19.22,19.22,0,0,1,70.43,25.6ZM128,320a12.8,12.8,0,1,1,25.6,0v12.8a12.8,12.8,0,1,1-25.6,0Zm294.38,0a64,64,0,1,1,64-64A64.07,64.07,0,0,1,422.41,320Zm0-102.4A38.4,38.4,0,1,0,460.8,256,38.4,38.4,0,0,0,422.41,217.6Zm0,51.2A12.8,12.8,0,1,1,435.2,256,12.81,12.81,0,0,1,422.41,268.8Z" />
                                         </svg>
                                         <h5>Covid-19</h5>
-                                        <p>It is a long established fact that a reader
-                                            will be distracted by the readable the
-                                            content of a page when looking.
+                                        <p>É um fato conhecido de todos que um leitor
+                                            se distrairá com o conteúdo legível de
+                                            uma página ao analisar sua diagramação.
                                         </p>
-                                        <a href="appoinment.html" class="button-btn mt-4">book now
+                                        <a href="appoinment.html" class="button-btn mt-4">Agende Agora
                                             <span><i class="fas fa-angle-double-right"></i></span>
                                         </a>
                                     </div>
@@ -235,12 +253,12 @@
                                             <path class="cls-1"
                                                 d="M512,256a89.59,89.59,0,1,0-102.39,88.69V358.4a128.14,128.14,0,0,1-128,128c-67.06,0-122.22-51.83-127.56-117.54a38.41,38.41,0,0,0,25.17-36.06v-7.28c30-12.37,45.84-37.64,50.63-53l45.61-148.24a77.27,77.27,0,0,0-10-66.38A75.4,75.4,0,0,0,256,46.51c0-.57,0-1.13,0-1.71a44.83,44.83,0,1,0-10.72,29.07A51.77,51.77,0,0,1,251,116.79L205.4,265a65.26,65.26,0,0,1-31.78,35,38.4,38.4,0,0,0-66.2,1,64.87,64.87,0,0,1-33.9-36L27.92,116.79A51.81,51.81,0,0,1,34.62,72.3l.22-.3a44.8,44.8,0,1,0-9.19-28,75.07,75.07,0,0,0-12.22,14,77.27,77.27,0,0,0-10,66.38l45.62,148.3c4.92,15.73,21.55,42,53.35,54v6.22a38.41,38.41,0,0,0,26,36.34C133.93,448.84,200.53,512,281.61,512c84.69,0,153.59-68.91,153.59-153.6V344.69A89.61,89.61,0,0,0,512,256ZM211.22,64a19.2,19.2,0,1,1,19.2-19.2A19.22,19.22,0,0,1,211.22,64ZM70.43,25.6a19.2,19.2,0,1,1-19.2,19.2A19.22,19.22,0,0,1,70.43,25.6ZM128,320a12.8,12.8,0,1,1,25.6,0v12.8a12.8,12.8,0,1,1-25.6,0Zm294.38,0a64,64,0,1,1,64-64A64.07,64.07,0,0,1,422.41,320Zm0-102.4A38.4,38.4,0,1,0,460.8,256,38.4,38.4,0,0,0,422.41,217.6Zm0,51.2A12.8,12.8,0,1,1,435.2,256,12.81,12.81,0,0,1,422.41,268.8Z" />
                                         </svg>
-                                        <h5>Full Stathoscope</h5>
-                                        <p>It is a long established fact that a reader
-                                            will be distracted by the readable the
-                                            content of a page when looking.
+                                        <h5>Estetoscópio Completo</h5>
+                                        <p>É um fato conhecido de todos que um leitor
+                                            se distrairá com o conteúdo legível de
+                                            uma página ao analisar sua diagramação.
                                         </p>
-                                        <a href="appoinment.html" class="button-btn mt-4">book now
+                                        <a href="appoinment.html" class="button-btn mt-4">Agende Agora
                                             <span><i class="fas fa-angle-double-right"></i></span>
                                         </a>
                                     </div>
@@ -262,12 +280,12 @@
                                             <path class="cls-1"
                                                 d="M512,256a89.59,89.59,0,1,0-102.39,88.69V358.4a128.14,128.14,0,0,1-128,128c-67.06,0-122.22-51.83-127.56-117.54a38.41,38.41,0,0,0,25.17-36.06v-7.28c30-12.37,45.84-37.64,50.63-53l45.61-148.24a77.27,77.27,0,0,0-10-66.38A75.4,75.4,0,0,0,256,46.51c0-.57,0-1.13,0-1.71a44.83,44.83,0,1,0-10.72,29.07A51.77,51.77,0,0,1,251,116.79L205.4,265a65.26,65.26,0,0,1-31.78,35,38.4,38.4,0,0,0-66.2,1,64.87,64.87,0,0,1-33.9-36L27.92,116.79A51.81,51.81,0,0,1,34.62,72.3l.22-.3a44.8,44.8,0,1,0-9.19-28,75.07,75.07,0,0,0-12.22,14,77.27,77.27,0,0,0-10,66.38l45.62,148.3c4.92,15.73,21.55,42,53.35,54v6.22a38.41,38.41,0,0,0,26,36.34C133.93,448.84,200.53,512,281.61,512c84.69,0,153.59-68.91,153.59-153.6V344.69A89.61,89.61,0,0,0,512,256ZM211.22,64a19.2,19.2,0,1,1,19.2-19.2A19.22,19.22,0,0,1,211.22,64ZM70.43,25.6a19.2,19.2,0,1,1-19.2,19.2A19.22,19.22,0,0,1,70.43,25.6ZM128,320a12.8,12.8,0,1,1,25.6,0v12.8a12.8,12.8,0,1,1-25.6,0Zm294.38,0a64,64,0,1,1,64-64A64.07,64.07,0,0,1,422.41,320Zm0-102.4A38.4,38.4,0,1,0,460.8,256,38.4,38.4,0,0,0,422.41,217.6Zm0,51.2A12.8,12.8,0,1,1,435.2,256,12.81,12.81,0,0,1,422.41,268.8Z" />
                                         </svg>
-                                        <h5>Heart Specialest</h5>
-                                        <p>It is a long established fact that a reader
-                                            will be distracted by the readable the
-                                            content of a page when looking.
+                                        <h5>Especialista em Coração</h5>
+                                        <p>É um fato conhecido de todos que um leitor
+                                            se distrairá com o conteúdo legível de
+                                            uma página ao analisar sua diagramação.
                                         </p>
-                                        <a href="appoinment.html" class="button-btn mt-4">book now
+                                        <a href="appoinment.html" class="button-btn mt-4">Agende Agora
                                             <span><i class="fas fa-angle-double-right"></i></span>
                                         </a>
                                     </div>
@@ -279,7 +297,7 @@
             </div>
         </div>
     </div>
-    <!-- secvices section End  -->
+    <!-- services section end -->
     <!-- emergency section start -->
     <div class="emergency-main-wrapper">
         <div class="container">
@@ -288,18 +306,18 @@
                     <div class="sb-emergency-main-wrapper ">
                         <div class="content">
                             <span><i class="fas fa-headphones-alt"></i></span>
-                            <h4>Emergency <br> Medical Care 24/7</h4>
+                            <h4>Assistência Médica de Emergência 24/7</h4>
                         </div>
-                        <h5>With access to 24 hour emergency assistance, It’s so
-                            important you can continue to help others.
+                        <h5>Com acesso a assistência de emergência 24 horas, é muito
+                            importante que você possa continuar ajudando os outros.
                         </h5>
-                        <p>It is a long established fact that a reader will be distract-
-                            ed by the readable content of a page when looking at its
-                            layout. The point of using Lorem Ipsum is that it has a
-                            more-or-less normal distribution.
+                        <p>É um fato conhecido de todos que um leitor se distrairá
+                            com o conteúdo legível de uma página ao analisar sua
+                            diagramação. O objetivo de usar Lorem Ipsum é que ele tem uma
+                            distribuição mais ou menos normal.
                         </p>
-                        <p>It is a long established fact that a reader will be distract-
-                            ed by the readable content of a page.
+                        <p>É um fato conhecido de todos que um leitor se distrairá
+                            com o conteúdo legível de uma página.
                         </p>
                         <div class="content">
                             <span class="rotate"><i class="fas fa-phone-volume"></i></span>
@@ -317,31 +335,31 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="sb-team-section">
-                        <h6 class="home1-section-heading1">Our Team</h6>
-                        <h5 class="home1-section-heading2">Our Dedicated Doctors</h5>
-                        <p>It is a long established fact that a reader will be distracted by the readable
-                            <br>content of a page when looking at its layout.
+                        <h6 class="home1-section-heading1">Nossa Equipe</h6>
+                        <h5 class="home1-section-heading2">Nossos Médicos Dedicados</h5>
+                        <p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo legível
+                            de uma página ao analisar sua diagramação.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                     <div class="team-section">
                         <div class="image">
-                            <img src="images/team-3.png" alt="img">
+                            <img src="{{ asset('images/team-3.png') }}" alt="img">
                             <div class='contact-action '>
                                 <div class='item plus-sign ' onclick="actionToggleOne();"> + </div>
                                 <span class='item icon-bg'> <i class="fab fa-facebook-f"></i></span>
                                 <span class='item icon-bg'> <i class="fab fa-twitter"></i> </span>
                             </div>
                         </div>
-                        <h5><a href="dr-single.html">Dr. Aimee Devlin</a></h5>
-                        <p><a href="dr-single.html">Psychiatrist</a></p>
+                        <h5><a href="dr-single.html">Dra. Aimee Devlin</a></h5>
+                        <p><a href="dr-single.html">Psiquiatra</a></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                     <div class="team-section">
                         <div class="image">
-                            <img src="images/team-2.png" alt="img">
+                            <img src="{{ asset('images/team-2.png') }}" alt="img">
                             <div class='contact-action action-1'>
                                 <div class='item plus-sign' onclick="actionToggleTwo();"> + </div>
                                 <span class='item icon-bg'> <i class="fab fa-facebook-f"></i></span>
@@ -349,13 +367,13 @@
                             </div>
                         </div>
                         <h5><a href="dr-single.html">Dr. Khalid Abbed</a></h5>
-                        <p><a href="dr-single.html">Oncologist</a></p>
+                        <p><a href="dr-single.html">Oncologista</a></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                     <div class="team-section">
                         <div class="image">
-                            <img src="images/team-3.png" alt="img">
+                            <img src="{{ asset('images/team-3.png') }}" alt="img">
                             <div class='contact-action action-2'>
                                 <div class='item plus-sign' onclick="actionToggleThree();"> + </div>
                                 <span class='item icon-bg'> <i class="fab fa-facebook-f"></i></span>
@@ -363,21 +381,23 @@
                             </div>
                         </div>
                         <h5><a href="dr-single.html">Dr. Arthur Reese</a></h5>
-                        <p><a href="dr-single.html">Hepatologist</a></p>
+                        <p><a href="dr-single.html">Hepatologista</a></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                     <div class="team-section">
                         <div class="image">
-                            <img src="images/team-4.png" alt="img">
+                            <img src="{{ asset('images/team-4.png') }}" alt="img">
                             <div class='contact-action action-3'>
                                 <div class='item plus-sign' onclick="actionToggleFour();"> + </div>
                                 <span class='item icon-bg'> <i class="fab fa-facebook-f"></i></span>
-                                <span class='item icon-bg'> <i class="fab fa-twitter"></i> </span>
+                                <span class='item icon-bg'>
+                                    < i class="fab fa-twitter"></i>
+                                </span>
                             </div>
                         </div>
-                        <h5><a href="dr-single.html">Dr. Nisha Ohri</a></h5>
-                        <p><a href="dr-single.html">Dr. Nisha Ohri</a></p>
+                        <h5><a href="dr-single.html">Dra. Nisha Ohri</a></h5>
+                        <p><a href="dr-single.html">Dra. Nisha Ohri</a></p>
                     </div>
                 </div>
             </div>
@@ -385,7 +405,7 @@
     </div>
     <!-- images section -->
     <div class="image-wrapper float_left">
-        <img src="images/doctors-image.jpg" alt="img">
+        <img src="{{ asset('images/doctors-image.jpg') }}" alt="img">
     </div>
     <!-- our team section end -->
 
@@ -393,94 +413,72 @@
     <div class="blog-main-wrapper">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col sm-12 col-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="sb-blog-main-section">
-                        <h6 class="home1-section-heading1 "> Our Blog</h6>
-                        <h5 class="home1-section-heading2">Our Latest News</h5>
-                        <p>It is a long established fact that a reader will be distracted by the readable
-                            <br>content of a page when looking at its layout.
+                        <h6 class="home1-section-heading1"> Nosso Blog</h6>
+                        <h5 class="home1-section-heading2">Nossas Últimas Notícias</h5>
+                        <p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo legível
+                            de uma página ao analisar sua diagramação.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                     <div class="blog-box">
                         <div class="img-icon">
-                            <img src="images/blog-img1.jpg" alt="img">
+                            <img src="{{ asset('images/blog-img1.jpg') }}" alt="img">
                             <div class="img-overlay"></div>
-                            <p class="text-center">08<br>
-                                july
-                            </p>
+                            <p class="text-center">08<br>julho</p>
                         </div>
                         <div class="blog-content">
-                            <h3><a href="blog-single.html">Spending More and Getting Less
-                                    for Health Care</a>
-                            </h3>
+                            <h3><a href="blog-single.html">Gastar Mais e Receber Menos em Cuidados de Saúde</a></h3>
                             <ul>
-                                <li><a href="javascript:;"><i class="far fa-user"></i> by John Doe</a>
-                                </li>
-                                <li><a href="javascript:;"><i class="far fa-comments"></i>Comments 02
-                                    </a>
-                                </li>
+                                <li><a href="javascript:;"><i class="far fa-user"></i> por John Doe</a></li>
+                                <li><a href="javascript:;"><i class="far fa-comments"></i>Comentários 02</a></li>
                             </ul>
-                            <p>It is a long established fact that a reader will be
-                                distracted by the readable content of a page
-                                when looking at its layout.
+                            <p>É um fato conhecido de todos que um leitor se distrairá
+                                com o conteúdo legível de uma página ao analisar sua diagramação.
                             </p>
-                            <a href="blog-single.html class="r-btn">Read More</a>
+                            <a href="blog-single.html" class="r-btn">Leia Mais</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                     <div class="blog-box">
                         <div class="img-icon">
-                            <img src="images/blog-img2.jpg" alt="img">
+                            <img src="{{ asset('images/blog-img2.jpg') }}" alt="img">
                             <div class="img-overlay"></div>
-                            <p class="text-center">20<br>
-                                july
-                            </p>
+                            <p class="text-center">20<br>julho</p>
                         </div>
                         <div class="blog-content">
-                            <h3><a href="blog-single.html">Aliq is notm hendr erit a augue insu image pellen
-                                    tes</a>
-                            </h3>
+                            <h3><a href="blog-single.html">Aliq não é hendr erit a augue insu imagem pellen</a></h3>
                             <ul>
-                                <li><a href="javascript:;"><i class="far fa-user"></i> by John Doe</a>
-                                </li>
-                                <li><a href="javascript:;"><i class="far fa-comments"></i>Comments 02
-                                    </a>
-                                </li>
+                                <li><a href="javascript:;"><i class="far fa-user"></i> por John Doe</a></li>
+                                <li><a href="javascript:;"><i class="far fa-comments"></i>Comentários 02</a></li>
                             </ul>
-                            <p>It is a long established fact that a reader will be
-                                distracted by the readable content of a page
-                                when looking at its layout.
+                            <p>É um fato conhecido de todos que um leitor se distrairá
+                                com o conteúdo legível de uma página ao analisar sua diagramação.
                             </p>
-                            <a href="blog-single.html" class="r-btn">Read More</a>
+                            <a href="blog-single.html" class="r-btn">Leia Mais</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                     <div class="blog-box">
                         <div class="img-icon">
-                            <img src="images/blog-img3.jpg" alt="img">
+                            <img src="{{ asset('images/blog-img3.jpg') }}" alt="img">
                             <div class="img-overlay"></div>
-                            <p class="text-center">28<br>
-                                july
-                            </p>
+                            <p class="text-center">28<br>julho</p>
                         </div>
                         <div class="blog-content">
-                            <h3><a href="blog-single.html">Healthy New Year’s resolutions and how to keep them</a></h3>
+                            <h3><a href="blog-single.html">Resoluções Saudáveis de Ano Novo e Como Mantê-las</a></h3>
                             <ul>
-                                <li><a href="javascript:;"><i class="far fa-user"></i> by John Doe</a>
-                                </li>
-                                <li><a href="javascript:;"><i class="far fa-comments"></i>Comments 02
-                                    </a>
-                                </li>
+                                <li><a href="javascript:;"><i class="far fa-user"></i> por John Doe</a></li>
+                                <li><a href="javascript:;"><i class="far fa-comments"></i>Comentários 02</a></li>
                             </ul>
-                            <p>It is a long established fact that a reader will be
-                                distracted by the readable content of a page
-                                when looking at its layout.
+                            <p>É um fato conhecido de todos que um leitor se distrairá
+                                com o conteúdo legível de uma página ao analisar sua diagramação.
                             </p>
-                            <a href="blog-single.html" class="r-btn">Read More</a>
+                            <a href="blog-single.html" class="r-btn">Leia Mais</a>
                         </div>
                     </div>
                 </div>
@@ -489,9 +487,9 @@
     </div>
     <!-- blog section end -->
 
-
     <!-- footer section start -->
-    @include ('components.footer')
+    @include('components.footer')
+    <!-- footer section end -->
 </body>
 
 </html>
