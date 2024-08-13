@@ -3,14 +3,17 @@
 		.form-section {
 			margin-top: 33px;
 		}
+
 		section {
 			padding: 30px;
 			border-bottom-right-radius: 5px;
 			border-bottom-left-radius: 5px;
+
 			.input-group {
 				input {
 					height: 50px;
 				}
+
 				span {
 					height: $my-width;
 					padding: 15px 25px;
@@ -21,21 +24,26 @@
 					border-bottom-left-radius: 0px;
 				}
 			}
+
 			.post-main-container {
 				display: flex;
 				align-items: $align-center;
 				margin-bottom: 50px;
+
 				.post-container {
 					.h6 {
 						font-size: $font-size;
 					}
+
 					p {
 						margin-top: 7px;
 						font-size: $font-xsmall;
 					}
 				}
+
 				&.hr-line {
 					position: relative;
+
 					&::before {
 						content: '';
 						position: absolute;
@@ -46,31 +54,38 @@
 					}
 				}
 			}
+
 			.categories {
 				li {
 					line-height: 35px;
+
 					span {
 						color: $title-color-hover;
 						margin-right: 15px;
 					}
 				}
 			}
+
 			.insta-post {
 				column-count: 4;
 				column-gap: 7px;
 				width: $my-width;
+
 				li {
 					width: $my-width;
 					margin-bottom: 7px;
+
 					img {
 						width: $my-width;
 					}
 				}
 			}
+
 			.tags {
 				flex-wrap: wrap;
 				display: flex;
 				column-gap: 10px;
+
 				li {
 					a {
 						background-color: $title-color-white;
@@ -85,6 +100,7 @@
 						-moz-transition: $transition;
 						transition: $transition;
 					}
+
 					&:hover {
 						a {
 							background-color: $title-color-hover;
@@ -105,12 +121,14 @@
 				p {
 					left: 30px;
 				}
+
 				.owl-theme {
 					.owl-dots {
 						position: absolute;
 						left: 50%;
 						transform: translateX(-50%);
 						bottom: 0;
+
 						.owl-dot {
 							span {
 								-webkit-transition: $transition;
@@ -121,6 +139,7 @@
 								background-color: $title-color-hover;
 								opacity: .4;
 							}
+
 							&:hover,
 							&.active {
 								span {
@@ -133,9 +152,11 @@
 					}
 				}
 			}
+
 			.blog-content {
 				padding: 30px;
 				background-color: $section-bg-color;
+
 				.quote-sec {
 					padding: 25px;
 					background: $title-color-hover;
@@ -143,10 +164,12 @@
 					border-radius: 10px;
 					margin-top: 30px;
 					position: relative;
+
 					p {
 						color: $title-color-white;
 						text-align: $align-center;
 					}
+
 					h6 {
 						color: $title-color-white;
 						text-align: $align-center;
@@ -154,6 +177,7 @@
 						font-size: $font-size;
 						margin: 20px 0;
 					}
+
 					img {
 						position: absolute;
 						left: 50%;
@@ -161,6 +185,7 @@
 						transform: translateX(-50%);
 					}
 				}
+
 				.tag-with-media {
 					display: flex;
 					justify-content: space-between;
@@ -168,13 +193,17 @@
 					padding-top: 30px;
 					margin-top: 30px;
 					border-top: 1px solid #d4d4d4;
+
 					.fa-tag {
 						color: $title-color-hover;
 					}
+
 					.tag-buttons {
 						padding: 0px;
+
 						li {
 							padding-right: 0;
+
 							a {
 								background: $title-color-white;
 								display: inline-block;
@@ -185,6 +214,7 @@
 								-ms-transition: $transition;
 								-moz-transition: $transition;
 								transition: $transition;
+
 								&:hover {
 									background-color: $title-color-hover;
 									color: $title-color-white;
@@ -192,16 +222,20 @@
 							}
 						}
 					}
+
 					.social {
 						ul {
 							border-bottom: none;
 							padding: 0;
+
 							li {
 								padding: 0 !important;
+
 								a {
 									i {
 										color: $title-color;
 									}
+
 									&:hover {
 										i {
 											color: $title-color-white;
@@ -213,29 +247,36 @@
 					}
 				}
 			}
+
 			.admin-main {
-				background-color: #ebf5f5;
+				background-color: #feeeef;
 				margin-top: 30px;
 				padding: 30px;
 				border-radius: 7px;
 				display: flex;
 				justify-content: start;
 				align-items: start;
+
 				.admin-about {
 					margin-left: 20px;
 					padding-top: 15px;
+
 					.h6 {
 						font-size: 24px;
+
 						span {
 							color: $title-color-hover;
 						}
+
 						&:hover {
 							color: $title-color;
 						}
 					}
+
 					p {
 						margin-top: 15px;
 					}
+
 					.more-btn {
 						color: $title-color-white;
 						background: $title-color-hover;
@@ -257,9 +298,11 @@
 // blog page navigation
 nav.page-navigation {
 	margin-top: 50px;
+
 	ul {
 		li.page-item {
 			margin-right: 20px;
+
 			&:first-child,
 			&:last-child {
 				.page-link {
@@ -270,12 +313,14 @@ nav.page-navigation {
 					-ms-transition: $transition;
 					-moz-transition: $transition;
 					transition: $transition;
+
 					&:hover {
 						background-color: $title-color-hover;
 						color: $title-color-white;
 					}
 				}
 			}
+
 			a.page-link {
 				width: 50px;
 				height: 50px;
@@ -291,10 +336,12 @@ nav.page-navigation {
 				-ms-transition: $transition;
 				-moz-transition: $transition;
 				transition: $transition;
+
 				&:hover {
 					background-color: $title-color-hover;
 					color: $title-color-white;
 				}
+
 				&:focus {
 					box-shadow: none;
 				}

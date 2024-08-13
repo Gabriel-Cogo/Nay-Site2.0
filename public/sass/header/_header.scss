@@ -6,28 +6,34 @@ header css
 	.sb-main-header {
 		.top-header-section {
 			background-color: $section-bg-color;
+
 			.sb-top-left-section {
 				padding: 13px 0px;
+
 				a {
 					&:hover {
 						color: $title-color-hover;
 					}
 				}
 			}
+
 			.sb-top-right-section {
 				ul {
 					display: flex;
 					justify-content: flex-end;
 					align-items: baseline;
+
 					li {
 						a {
 							padding: 13px;
 							display: inline-block;
+
 							&:hover {
 								color: $title-color-hover;
 							}
 						}
 					}
+
 					.login-btn {
 						-webkit-transition: $transition;
 						-moz-transition: $transition;
@@ -38,13 +44,16 @@ header css
 						text-align: center;
 						background-color: #b51a41;
 						color: $text-hover-color;
+
 						span {
 							a {
 								padding: 13px 3px !important;
 								color: $text-hover-color;
 							}
 						}
+
 						&:hover {
+
 							a,
 							span {}
 						}
@@ -52,19 +61,24 @@ header css
 				}
 			}
 		}
+
 		.mid-header-section {
 			padding: 18px 0px;
+
 			.sb-mid-right-section {
 				ul {
 					display: flex;
 					justify-content: flex-end;
 					align-items: center;
 				}
+
 				li {
 					padding: 0px 30px;
 					border-right: 1px solid #d3d3d3;
+
 					a {
 						float: left;
+
 						.fas {
 							width: 35px;
 							height: 35px;
@@ -85,19 +99,23 @@ header css
 .menu-items-wrapper {
 	background-color: $title-color-hover;
 	padding: 13px 0px;
+
 	nav {
 		ul {
 			li {
 				position: relative;
 				padding: 0 10px;
+
 				a {
 					color: $text-hover-color;
 					padding: 0px 15px;
+
 					span {
 						font-size: 10px;
 						margin-left: 3px;
 					}
 				}
+
 				.dropdown-items {
 					position: absolute;
 					background-color: $title-color-white;
@@ -115,6 +133,7 @@ header css
 					-o-transition: $transition;
 					transition: $transition;
 					box-shadow: 2px 0 10px #0000001a;
+
 					li {
 						padding: 7px 20px;
 						position: relative;
@@ -123,8 +142,10 @@ header css
 						-ms-transition: $transition;
 						-moz-transition: $transition;
 						transition: $transition;
+
 						a {
 							color: $title-color;
+
 							span {
 								position: absolute;
 								right: 20px;
@@ -132,6 +153,7 @@ header css
 								transform: translateY(-50%);
 							}
 						}
+
 						.sub-dropdown {
 							opacity: 0;
 							visibility: hidden;
@@ -143,11 +165,14 @@ header css
 							background-color: $title-color-white;
 							border-bottom: 2px solid $title-color-hover;
 							box-shadow: 2px 0 10px #0000001a;
+
 							li {
 								padding: 7px 20px;
+
 								a {
 									color: $title-color;
 								}
+
 								&:hover {
 									a {
 										color: $title-color-white;
@@ -155,14 +180,18 @@ header css
 								}
 							}
 						}
+
 						&:hover {
 							&:after {
 								display: none;
 							}
+
 							background-color: $title-color-hover;
+
 							a {
 								color: $title-color-white;
 							}
+
 							.sub-dropdown {
 								opacity: 1;
 								visibility: visible;
@@ -170,6 +199,7 @@ header css
 						}
 					}
 				}
+
 				&::after {
 					content: '';
 					display: block;
@@ -179,15 +209,17 @@ header css
 					width: 0%;
 					height: 3px;
 					background-color: $title-color-white;
-					transform: translateX( -50%);
+					transform: translateX(-50%);
 					-webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 					-o-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 					transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 				}
+
 				&:hover {
 					&::after {
 						width: $my-width;
 					}
+
 					.dropdown-items {
 						opacity: 1;
 						visibility: visible;
@@ -196,19 +228,22 @@ header css
 			}
 		}
 	}
+
 	form {
 		input {
 			width: 380px;
-			background: #e43662;
+			background: #f0b59d;
 			border: none;
 			height: 40px;
 			color: $title-color-white;
 			padding-left: 30px;
 			margin-top: 2px;
+
 			&::placeholder {
 				color: $title-color-white;
 			}
 		}
+
 		span {
 			position: absolute;
 			right: 25px;
@@ -230,19 +265,23 @@ Banner section css
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 160px 0px;
+
 	// height:$my-height;
 	.sb-banner-section {
 		h4 {
 			line-height: 35px;
 		}
+
 		h2 {
 			// line-height: 40px;
 			padding-top: 20px;
 			font-size: 54px;
+
 			span {
 				color: $title-color-hover;
 			}
 		}
+
 		p {
 			width: 500px;
 			padding-top: 20px;
@@ -250,10 +289,11 @@ Banner section css
 	}
 }
 
-// =========================INDEX-02 PAGE HEADER CSS START 
+// =========================INDEX-02 PAGE HEADER CSS START
 .main-header-wrapper2 {
 	position: relative;
 	z-index: 2;
+
 	&:after {
 		content: '';
 		position: absolute;
@@ -265,10 +305,12 @@ Banner section css
 		top: 0;
 		z-index: -1;
 	}
+
 	.sb-header-section2 {
 		.logo-wrapper2 {
 			line-height: 141px;
 			position: relative;
+
 			&:after {
 				content: '';
 				position: absolute;
@@ -276,43 +318,53 @@ Banner section css
 				top: -8px;
 				height: 112%;
 				display: block;
-				transform: rotate( 24deg);
+				transform: rotate(24deg);
 				background-color: $section-bg-color2;
 				right: 3px;
 				z-index: 9;
 			}
 		}
+
 		.menu-top-section2 {
 			position: relative;
+
 			ul {
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
 				background-color: $bg-color2;
 				padding-left: 20px;
+
 				li {
 					padding: 13px 0px;
+
 					a {
 						color: $title-color-white;
+
 						span {
 							padding-right: 7px;
 						}
+
 						&:hover {
 							color: $section-bg-color2;
 						}
 					}
+
 					ul {
 						padding: 0px;
 						align-items: center;
+
 						li {
 							padding: 0px 10px;
 						}
 					}
 				}
+
 				.btn2 {
 					width: 180px;
 					text-align: $align-center;
 					background-color: $section-bg-color2;
+
 					&:hover {
 						a {
 							color: $title-color-white !important;
@@ -320,6 +372,7 @@ Banner section css
 					}
 				}
 			}
+
 			&::before {
 				content: '';
 				position: absolute;
@@ -332,6 +385,7 @@ Banner section css
 				clip-path: polygon($my-width 5%, 0% $my-width, $my-width $my-width);
 			}
 		}
+
 		.menu-section2 {
 			ul {
 				display: flex;
@@ -340,15 +394,18 @@ Banner section css
 				padding: 20px 0px;
 				padding-left: 20px;
 				padding-bottom: 11px;
+
 				li {
 					a {
 						width: 100%;
 						display: block;
+
 						i {
 							font-size: $font-xxsmall;
 							padding-left: 3px;
 						}
 					}
+
 					.dropdown-items {
 						position: absolute;
 						background-color: $title-color-white;
@@ -368,11 +425,14 @@ Banner section css
 						-ms-transition: $transition;
 						-o-transition: $transition;
 						transition: $transition;
+
 						li {
 							padding: 7px 20px;
 							position: relative;
+
 							a {
 								color: $title-color;
+
 								span {
 									position: absolute;
 									right: 20px;
@@ -380,6 +440,7 @@ Banner section css
 									transform: translateY(-50%);
 								}
 							}
+
 							.sub-dropdown {
 								opacity: 0;
 								visibility: hidden;
@@ -392,12 +453,15 @@ Banner section css
 								border-bottom: 2px solid $bg-color2;
 								box-shadow: 2px 0 10px #0000001a;
 								display: block;
+
 								li {
 									padding: 7px 20px;
 									display: block;
+
 									a {
 										color: $title-color;
 									}
+
 									&:hover {
 										a {
 											color: $title-color-white;
@@ -405,14 +469,18 @@ Banner section css
 									}
 								}
 							}
+
 							&:hover {
 								&:after {
 									display: none;
 								}
+
 								background-color: $bg-color2;
+
 								a {
 									color: $title-color-white;
 								}
+
 								.sub-dropdown {
 									opacity: 1;
 									visibility: visible;
@@ -420,6 +488,7 @@ Banner section css
 							}
 						}
 					}
+
 					// .modal-body {
 					// 	position: relative;
 					// 	margin-bottom: 25px;
@@ -446,11 +515,13 @@ Banner section css
 							opacity: 1;
 							visibility: visible;
 						}
+
 						a {
 							color: $section-bg-color2;
 						}
 					}
 				}
+
 				.book-btn2 {
 					height: 50px;
 					width: 150px;
@@ -463,9 +534,11 @@ Banner section css
 			}
 		}
 	}
+
 	.mobile-menu-wrapper {
 		background-color: $bg-color2;
 	}
+
 	#sidebar {
 		#cssmenu {
 			ul {
@@ -473,6 +546,7 @@ Banner section css
 					.social-icon {
 						li {
 							background-color: #004274 !important;
+
 							a {
 								color: #fff;
 							}
@@ -482,6 +556,7 @@ Banner section css
 			}
 		}
 	}
+
 	.nav-link {
 		padding: 0 !important;
 	}
@@ -491,7 +566,9 @@ Banner section css
 	float: left;
 	width: $my-width;
 	position: relative;
+
 	#carouselExampleCaptions {
+
 		.carousel-control-next-icon,
 		.carousel-control-prev-icon {
 			background-image: none;
@@ -501,6 +578,7 @@ Banner section css
 			line-height: 40px;
 			top: auto;
 		}
+
 		.carousel-control-next,
 		.carousel-control-prev {
 			width: auto;
@@ -510,22 +588,27 @@ Banner section css
 			-ms-transition: $transition;
 			-o-transition: $transition;
 			transition: $transition;
+
 			&:hover,
 			&:focus {
 				background-color: $title-color-white;
 				opacity: 1;
+
 				i {
 					color: $body-color !important;
 				}
 			}
 		}
+
 		.carousel-control-prev {
 			right: 46px;
 			left: auto;
 		}
+
 		.carousel-control-next {
 			right: 7px;
 		}
+
 		.carousel-item {
 			background-image: url('../images/bg-image02.jpg');
 			background-repeat: no-repeat;
@@ -535,28 +618,34 @@ Banner section css
 			width: $my-width;
 			text-align: left;
 			color: #111;
+
 			h4 {
 				text-transform: uppercase;
 				font-size: 26px;
 				font-weight: $font-weight1;
 				padding-bottom: 10px;
+
 				span {
 					color: $bg-color2;
 				}
 			}
+
 			h3 {
 				font-weight: $font-weight1;
 				padding-bottom: 10px;
 				font-size: 40px;
 			}
+
 			p {
 				color: $title-color;
 				padding-bottom: 10px;
 			}
+
 			ul {
 				display: flex;
 				align-items: center;
 				padding-top: 30px;
+
 				li {
 					padding-right: 20px;
 				}
@@ -570,15 +659,19 @@ Banner section css
 	.sb-main-header3 {
 		.top-header3 {
 			padding: 18px 0px;
+
 			.logo-wrapper3 {}
+
 			.top-right-section {
 				ul {
 					display: flex;
 					align-items: center;
 					justify-content: flex-end;
+
 					li {
 						a {
 							float: left;
+
 							i {
 								border-radius: 50%;
 								color: $bg-color3;
@@ -586,6 +679,7 @@ Banner section css
 								line-height: 35px;
 								margin: 10px
 							}
+
 							.search {
 								background-color: $section-bg-color3;
 								color: $title-color-white;
@@ -595,6 +689,7 @@ Banner section css
 								line-height: 40px;
 							}
 						}
+
 						+li {
 							padding-left: 20px;
 						}
@@ -602,8 +697,10 @@ Banner section css
 				}
 			}
 		}
+
 		.menu-item-wrapper3 {
 			background-color: $section-bg-color3;
+
 			.social-media-icons {
 				li {
 					a {
@@ -616,12 +713,14 @@ Banner section css
 						-ms-transition: $transition;
 						-moz-transition: $transition;
 						transition: $transition;
+
 						&:hover {
 							color: $bg-color3;
 						}
 					}
 				}
 			}
+
 			.home3-btn {
 				-webkit-transition: $transition;
 				-o-transition: $transition;
@@ -629,29 +728,36 @@ Banner section css
 				-moz-transition: $transition;
 				transition: $transition;
 				background-color: $title-color-white;
+
 				&:hover {
 					background-color: transparent;
+
 					a {
 						color: $title-color-white !important;
 					}
 				}
 			}
+
 			.dropdown-items {
 				border-bottom: 2px solid $section-bg-color3;
+
 				li {
 					&:hover {
 						background-color: $section-bg-color3;
 					}
+
 					.sub-dropdown {
 						border-bottom: 2px solid $section-bg-color3;
 					}
 				}
 			}
 		}
+
 		.mobile-menu-wrapper {
 			background-color: $section-bg-color3;
 		}
 	}
+
 	#sidebar {
 		#cssmenu {
 			ul {
@@ -659,6 +765,7 @@ Banner section css
 					.social-icon {
 						li {
 							background-color: #ff9e21 !important;
+
 							a {
 								color: #fff;
 							}
@@ -672,6 +779,7 @@ Banner section css
 
 .mobile-menu-wrapper .toggle-main-wrapper {
 	display: block;
+
 	.line {
 		width: 30px;
 		height: 3px;
@@ -689,6 +797,7 @@ Banner section css
 	padding: 20px 0;
 	display: flex !important;
 	left: -330px !important;
+
 	ul {
 		display: block !important;
 	}

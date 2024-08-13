@@ -1,7 +1,8 @@
 .gallery-main-page {
 	.overlay-color {
-		background-color: #e1245499 !important;
+		background-color: #cd446099 !important;
 	}
+
 	ul {
 		column-count: 5;
 		column-gap: 15px;
@@ -11,58 +12,70 @@
 
 /*----- team-page -----*/
 
-.team-dr{
+.team-dr {
 	background-color: $bg-color-white;
-	.sb-founder-section{
-		background-color: #ebf5f5;
+
+	.sb-founder-section {
+		background-color: #feeeef;
 	}
-	.row{
+
+	.row {
 		row-gap: 30px;
 	}
-	.page-2-heading{
-		h4{
+
+	.page-2-heading {
+		h4 {
 			color: $title-color-hover;
-			&::before, &::after{
+
+			&::before,
+			&::after {
 				display: none;
 			}
 		}
 	}
-	.sb-founder-section{
-		section{
-			.bg-change2{
+
+	.sb-founder-section {
+		section {
+			.bg-change2 {
 				background-color: $bg-color-main;
 			}
-			.hover-type{
-				a{
+
+			.hover-type {
+				a {
 					background-color: $title-light-pink;
 					color: $bg-color-main;
 				}
 			}
 		}
 	}
-	.allteam-btn{
+
+	.allteam-btn {
 		display: flex;
 		justify-content: center;
 	}
 }
 
 /*----- single-dr -----*/
-.team-single{
-    padding-bottom: 60px;
-    padding-top: 0;
+.team-single {
+	padding-bottom: 60px;
+	padding-top: 0;
 }
-.consult-wrap{
+
+.consult-wrap {
 	padding: 30px;
-	.consult{
+
+	.consult {
 		display: flex;
 		align-items: center;
 		column-gap: 15px;
 		margin-bottom: 25px;
-		i{
+
+		i {
 			color: $title-color-hover;
 			margin-right: 10px;
 		}
-		h5{
+
+		h5 {
 			font-size: 18px;
 			margin-bottom: 5px;
 		}

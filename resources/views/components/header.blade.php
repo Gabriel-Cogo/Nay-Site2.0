@@ -5,14 +5,14 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-8">
                         <div class="sb-top-left-section">
-                            <div>
+                            <div style="transform: scale(1.1); ">
                                 <a href="mailto:nayara@example.com"><span><i class="fas fa-envelope"></i></span>&nbsp;
-                                    &nbsp;nayara@example.com</a>
+                                    &nbsp;Contato@coisasdeitgirls.com.br</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-4 p-0">
-                        <div class="sb-top-right-section">
+                        <div class="sb-top-right-section" style="transform: scale(1.1); ">
                             <ul>
                                 <li>
                                     <ul class="d-xl-flex d-lg-flex d-md-none d-sm-none d-none">
@@ -25,9 +25,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="login-btn">
+                                <li class="btn">
                                     <span>
-                                        <a href="/">Painel</a>
+                                        <a href="/"><i class="fas fa-lock"></i> </a>
                                     </span>
                                 </li>
                             </ul>
@@ -36,6 +36,7 @@
                 </div>
             </div>
         </div>
+
         <div class="mid-header-section d-xl-block d-lg-block d-md-none d-sm-none d-none">
             <div class="container">
                 <div class="row">
@@ -46,7 +47,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                    {{-- <div class="col-lg-9 col-md-9 col-sm-12 col-12">
                         <div class="sb-mid-right-section">
                             <ul>
                                 <li>
@@ -67,7 +68,7 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -77,108 +78,91 @@
                     <div class="col-lg-8 col-md-6">
                         <nav class="navbar navbar-expand-lg">
                             <ul class="navbar-nav">
-                                <li class="nav-item ps-rel">
-                                    <a class="nav-link" href="javascript:;">Home
-                                        <span><i class="fas fa-chevron-right"></i></span>
-                                    </a>
-                                    <ul class="dropdown-items">
-                                        <li><a href="/">Home 01</a></li>
-                                        <li><a href="/">Home 02</a></li>
-                                        <li><a href="/">Home 03</a></li>
-                                    </ul>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="javascript:;">Páginas
+                                    <a class="nav-link" href="/">Sobre</a>
+                                </li>
+
+
+
+                                <li class="nav-item ps-rel">
+                                    <a class="nav-link" href="javascript:;">Beleza
                                         <span><i class="fas fa-chevron-right"></i></span>
                                     </a>
                                     <ul class="dropdown-items">
-                                        <li><a href="/">Sobre Nós</a></li>
-                                        <li><a href="/">Médicos</a></li>
-                                        <li><a href="/">Médico Individual</a></li>
-                                        <li><a href="/">Consulta</a></li>
-                                        <li><a href="/">404</a></li>
+                                        <li><a href="/">Categoria 1</a></li>
+                                        <li><a href="/">Categoria 2</a></li>
+                                        <li><a href="/">Categoria 3</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item ps-rel">
-                                    <a class="nav-link" href="javascript:;">Serviços
+                                    <a class="nav-link" href="javascript:;">Estilo
                                         <span><i class="fas fa-chevron-right"></i></span>
                                     </a>
                                     <ul class="dropdown-items">
-                                        <li><a href="/">Serviço
-                                                <span><i class="fas fa-chevron-right"></i></span>
-                                            </a>
-                                            <ul class="sub-dropdown">
-                                                <li><a href="/">Covid 19</a></li>
-                                                <li><a href="/">Estetoscópio Completo</a></li>
-                                                <li><a href="/">Especialista em Coração</a></li>
-                                                <li><a href="/">Banco de Sangue</a></li>
-                                                <li><a href="/">Para Deficientes</a></li>
-                                                <li><a href="/">Psiquiatra</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="/">Detalhes do Serviço</a></li>
+                                        <li><a href="/">Categoria 1</a></li>
+                                        <li><a href="/">Categoria 2</a></li>
+                                        <li><a href="/">Categoria 3</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item ps-rel">
-                                    <a class="nav-link" href="javascript:;">Galeria
+                                    <a class="nav-link" href="javascript:;">Vida Cotidiana
                                         <span><i class="fas fa-chevron-right"></i></span>
                                     </a>
                                     <ul class="dropdown-items">
-                                        <li><a href="/">3 Colunas</a></li>
-                                        <li><a href="/">4 Colunas</a></li>
-                                        <li><a href="/">5 Colunas</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item ps-rel">
-                                    <a class="nav-link" href="javascript:;">Blog
-                                        <span><i class="fas fa-chevron-right"></i></span>
-                                    </a>
-                                    <ul class="dropdown-items">
-                                        <li><a href="/">Blog Barra Lateral Esquerda</a></li>
-                                        <li><a href="/">Blog Barra Lateral Direita</a></li>
+
                                         <li>
-                                            <a href="javascript:;">Blog Individual
+                                            <a href="javascript:;">Dicas de Moda
                                                 <span><i class="fas fa-chevron-right"></i></span>
                                             </a>
                                             <ul class="sub-dropdown">
-                                                <li><a href="/">Blog Individual</a></li>
-                                                <li><a href="/">Blog Individual com Slider</a></li>
-                                                <li><a href="/">Blog Individual com Vídeo</a></li>
+                                                <li><a href="/">Dicas 1</a></li>
+                                                <li><a href="/">Dicas 2</a></li>
+                                                <li><a href="/">Dicas 3</a></li>
                                             </ul>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">Dicas de Casa
+                                                <span><i class="fas fa-chevron-right"></i></span>
+                                            </a>
+                                            <ul class="sub-dropdown">
+                                                <li><a href="/">Dicas 1</a></li>
+                                                <li><a href="/">Dicas 2</a></li>
+                                                <li><a href="/">Dicas 3</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">Dicas de Beleza
+                                                <span><i class="fas fa-chevron-right"></i></span>
+                                            </a>
+                                            <ul class="sub-dropdown">
+                                                <li><a href="/">Dicas 1</a></li>
+                                                <li><a href="/">Dicas 2</a></li>
+                                                <li><a href="/">Dicas 3</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">Todos os Blogs
+
+                                            </a>
+
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item ps-rel">
-                                    <a class="nav-link" href="javascript:;">Shortcode
+                                    <a class="nav-link" href="javascript:;">Produtos
                                         <span><i class="fas fa-chevron-right"></i></span>
                                     </a>
-                                    <div class="dropdown-items mega-menu">
-                                        <ul>
-                                            <li><a href="/">Acordeão</a></li>
-                                            <li><a href="/">Cliente</a></li>
-                                            <li><a href="/">Contador</a></li>
-                                            <li><a href="/">Formulário</a></li>
-                                        </ul>
-                                        <ul>
-                                            <li><a href="/">Alerta</a></li>
-                                            <li><a href="/">Ícone</a></li>
-                                            <li><a href="/">Lista</a></li>
-                                            <li><a href="/">Tabela de Preços</a></li>
-                                        </ul>
-                                        <ul>
-                                            <li><a href="/">Abas</a></li>
-                                            <li><a href="/">Equipe</a></li>
-                                            <li><a href="/">Depoimento</a></li>
-                                        </ul>
-                                        <ul>
-                                            <li><a href="/">Portfólio</a></li>
-                                            <li><a href="/">Ícone Social</a></li>
-                                        </ul>
-                                    </div>
+                                    <ul class="dropdown-items">
+                                        <li><a href="/">Categoria 1</a></li>
+                                        <li><a href="/">Categoria 2</a></li>
+                                        <li><a href="/">Categoria 3</a></li>
+                                    </ul>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/">Contato</a>
-                                </li>
+
+
                             </ul>
                         </nav>
                     </div>

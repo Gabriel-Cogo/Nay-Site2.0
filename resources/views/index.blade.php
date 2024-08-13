@@ -69,7 +69,7 @@
                                 <defs>
                                     <style>
                                         .cls-1 {
-                                            fill: #e12454;
+                                            fill: #cd4460;
                                             width: 45px;
                                         }
                                     </style>
@@ -92,7 +92,7 @@
                                 <defs>
                                     <style>
                                         .cls-1 {
-                                            fill: #e12454;
+                                            fill: #cd4460;
                                         }
                                     </style>
                                 </defs>
@@ -114,7 +114,7 @@
                                 <defs>
                                     <style>
                                         .cls-1 {
-                                            fill: #e12454;
+                                            fill: #cd4460;
                                         }
                                     </style>
                                 </defs>
@@ -217,7 +217,7 @@
                                             <defs>
                                                 <style>
                                                     .cls-1 {
-                                                        fill: #e12454;
+                                                        fill: #cd4460;
                                                         width: 45px;
                                                     }
                                                 </style>
@@ -244,7 +244,7 @@
                                             <defs>
                                                 <style>
                                                     .cls-1 {
-                                                        fill: #e12454;
+                                                        fill: #cd4460;
                                                         width: 45px;
                                                     }
                                                 </style>
@@ -271,7 +271,7 @@
                                             <defs>
                                                 <style>
                                                     .cls-1 {
-                                                        fill: #e12454;
+                                                        fill: #cd4460;
                                                         width: 45px;
                                                     }
                                                 </style>
